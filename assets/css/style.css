@@ -1,0 +1,209 @@
+body{
+	margin:0px;
+	color: black;
+	font-family: 'Karla', sans-serif;
+ }
+
+div {
+	display: block;
+}
+
+#topbar{
+	background: #EEFFF9;
+	position: fixed;
+	width:100%;
+	top:0;
+		z-index: 12;
+  padding-top: 20px;
+
+}
+
+.topbar-title {
+	font-size: 50px;
+	line-height:40px;
+	font-weight: 300;
+	float:none;
+	list-style-type: none;
+	padding-left:70px;
+
+}
+
+.topbar-title a:hover{
+	opacity: 0.6;
+}
+
+.topbar-title a{
+	text-decoration:none;
+	color: black;
+}
+
+.topbar-item{
+	float: right;
+	font-size:25px;
+	padding-right: 40px;
+    transform: translateY(-150%);
+    list-style-type:none;
+    line-height:20px;
+  vertical-align: middle;
+
+}
+
+.topbar-item a{
+	text-decoration:none;
+	color: black;
+}
+
+.topbar-item a:hover{
+	opacity: 0.6;
+}
+
+#search::-webkit-input-placeholder {
+	color: black;
+	text-indent: 10px;
+}
+
+
+#search {
+	background-color:#e6e6e6;
+	border: none;
+	margin-right: 50px;
+	margin-top: 8px;
+	border-radius: 3px;
+	border:none;
+		z-index: 12;
+}
+
+#feature {
+  padding-top: 70px;
+
+}
+
+.feature {
+width: 50%;
+height: 650px;
+position: fixed;
+}
+
+#home {
+  text-align: center;
+  list-style-type: none;
+}
+
+.separator {
+  padding-top: 70px;
+  position:relative;
+  padding-left: 487px;
+  padding-right: 500px;
+  list-style-type: none;
+}
+
+
+
+.text-title {
+  padding-top: 20px;
+  font-size: 32px;
+  list-style-type: none;
+	
+}
+
+.logo {
+  padding-top: 40px;
+}
+
+.text {
+  padding-top: 20px;
+  padding-left: 340px;
+  padding-right: 300px;
+	padding-bottom: 50px;
+  list-style-type: none;
+  text-align:justify;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.text-1 {
+	padding-top: 100px;
+	padding-left: 340px;
+	padding-right: 300px;
+	padding-bottom: 100px;
+	list-style-type: none;
+	text-align:justify;
+	line-height: 20px;
+	font-size: 18px;
+	position: relative;
+}
+
+#penguin {
+	background-color: pink;
+	padding: 20px;
+	width: 200px;
+	float: center;
+	margin-left: 510px;
+	margin-top: 10px;
+	margin-bottom: 100px;
+
+}
+
+#penguin a:hover {
+	opacity: 0.6;
+}
+
+.face {
+	display: none;
+}
+
+.sad {
+	color: #19CFE5;
+	padding: 20px;
+	width: 200px;
+	float: center;
+	margin-left: 510px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+.contact {
+	padding-top: 70px;
+	width: 100%;
+	overflow: auto;
+}
+
+.contact-page {
+	float: right;
+	width: 50%;
+	height: 650px;
+	background: pink;
+	position: relative;
+
+}
+
+.contact-info {
+	float: right;
+	margin-left: 20px;
+	position: fixed;
+	background-color: #pink;
+	border: none;
+	margin-top: 100px;
+	list-style-type: none;
+	padding-bottom: 100px;
+}
+
+
+
+label, contact-info {
+    display: block;
+
+
+}
+
+label, contact-info :-webkit-input-placeholder {
+	color: black;
+}
+
+label {
+		margin-top: 20px;
+		margin-left: 180px;
+		margin-bottom: 50px;
+
+}
